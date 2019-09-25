@@ -45,7 +45,7 @@ public class Cheese {
     public Cheese() { }
 
     @ManyToMany(mappedBy = "cheeses")
-    private List< Menu > menus;
+    private List<Menu>menus;
 
     public int getId() {
         return id;
